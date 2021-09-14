@@ -10,3 +10,11 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+puts "------------------------------------------------"
+puts "------------------------------------------------"
+puts "----------------ENTER STORE NAME----------------"
+puts "------------------------------------------------"
+user_input = gets.chomp
+
+user_store = Store.create(name: user_input)
